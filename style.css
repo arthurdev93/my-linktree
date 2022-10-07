@@ -1,0 +1,32 @@
+html{
+    margin: 0;
+    padding: 0;
+    background-image: url(./assets/pexels-alex-andrews-3805983.jpg);
+    background-size: cover;
+    
+}
+body{
+    width: 50%;
+    height: max-content; /*AJUSTAR++*/ 
+    margin-right: auto;
+    margin-left: auto;
+    background-color: red;
+}
+header{
+    text-align: center;
+}
+
+#perfil-img{
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+}
+
+#links{
+    
+    
+}
+ul{
+    list-style: none;
+    
+}
