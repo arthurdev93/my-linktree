@@ -5,21 +5,25 @@ html{
     background-size: cover;    
 }
 
-#bg-image{
-    filter: blur(2px);
-}
-
 body{
     width: 50%;
  /*AJUSTAR O HEIGH AQUI++*/ 
+    height: 100vh;
     margin-right: auto;
     margin-left: auto;
-    background-color: red;
+    margin-top: 0;
+    margin-bottom: 0;
+    border: 2px solid white;
+    background-color: red; 
     font-family: "Share", "cursive";
 }
 header{
     text-align: center;
     font-size: xx-large;
+}
+
+#content{
+    height: 100%;
 }
 
 #perfil-img{
@@ -35,7 +39,8 @@ ul{
 a{
     text-decoration: none;
 }
- li{
+
+li{
     margin-bottom: 20px;
- }
+}
 
