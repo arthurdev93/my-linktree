@@ -3,15 +3,15 @@ html{
     margin: 0;
     padding: 0;
    /* background-image: url(./assets/pexels-alex-andrews-3805983.jpg);  */
-    background-size: cover;    
+    /* background-size: cover;   */ 
 }
 body{
     margin: 0;
     padding: 0;
 }
 
-.content{
-    border: none;
+h1{
+    font-size: larger;
 }
 
 .container{
@@ -20,24 +20,30 @@ body{
     height: 95vh;
     margin: auto;
     border: 2px solid white;
- /*   background-color: red;  */ 
     font-family: "Share", "cursive";
 }
 
+.content{
+    border: none;
+}
+
 #back-img{
+    display: none;
+    /*
     position: absolute;
     background-size: cover;
     height: 100vh;
     width: 100vw;
     z-index: -1;
-    filter: blur(3px);
+    filter: blur(3px);   */
 }
 
 #cont-img{
     position: absolute;
+    background-size: contain;
     z-index: -1;
-    max-width: 640px;
-    height: 95vh;
+    width: 100%;
+    height: 100%;
     filter: blur(2px);
 }
 
@@ -50,11 +56,11 @@ header{
 
 
 #perfil-img{
-    width: 200px;
-    max-width: 100em;
+    width: 53vw;
     float: left;
     margin-right: 20px;
-    border: 5px;
+    margin-left: 10px;
+    border: 2px;
     border-style: outset;
     border-color: #ADAA9B;
     border-radius: 15px;
@@ -64,28 +70,37 @@ ul{
     list-style: none;
     margin: 0;
     padding: 0;
+    font-size: x-large;
+    text-align: justify;
 }
 
 a{
     text-decoration: none;
     background-color: aqua;
+    text-align: end;
     border-radius: 10px;
-    padding: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
 }
 
 li{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding: 10px;
 }
 
 .slogan{
     padding: 5px;
     color: white;
-    font-size: 18px;
+    clear: both;
+}
+p{
+    font-size: x-large;
 }
 
 /*MOBILE*/
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 500px) {
 
     
 }
