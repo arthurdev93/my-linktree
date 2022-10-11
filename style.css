@@ -9,6 +9,10 @@ body{
     padding: 0;
 }
 
+.content{
+    display: block;
+}
+
 .container{
     max-width: 640px;
  /*AJUSTAR O HEIGH AQUI++*/ 
