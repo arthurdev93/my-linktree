@@ -77,17 +77,38 @@ ul{
 a{
     text-decoration: none;
     background-color: aqua;
-    text-align: end;
     border-radius: 10px;
-    padding-top: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-}
+    padding: 10px;
+    }
 
 li{
     margin-bottom: 10px;
     padding: 10px;
+}
+/*ABAIXO CONFIGS ITEM LISTA DE LINKS*/
+
+.email{
+    padding-right: 36px;
+    margin-right: 0;
+}
+
+.linkedin{
+    padding-right: 13px;
+    margin-right: 0;
+}
+
+.portfolio{
+    padding-right: 4px;
+}
+
+.curriculo{
+    padding-right: 12px;
+    margin-right: 0;
+}
+
+.github{
+    padding-right: 29px;
+    margin-right: 0;
 }
 
 .slogan{
