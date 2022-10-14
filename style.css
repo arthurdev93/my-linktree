@@ -46,7 +46,7 @@ h1{
     z-index: -1;
     width: 100%;
     height: 100%;
-    filter: blur(3px);
+    filter: blur(1.5px);
 }
 
 header{
