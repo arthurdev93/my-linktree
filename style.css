@@ -1,4 +1,4 @@
-/*AJUSTAR CSS PARA MOBILE FIRST, E MEDIA QUERY "MIN-WIDTH"*/
+/*MOBILE FIRST*/
 html{
     margin: 0;
     padding: 0;
@@ -16,10 +16,10 @@ h1{
 
 .container{
     max-width: 640px;
- /*AJUSTAR O HEIGH AQUI++*/ 
-    height: 95vh;
+    /*"heigh:auto" tirou borda branca inferior tela*/ 
+    height: auto;
     margin: auto;
-    border: 2px solid white;
+ /*   border: 2px solid white;  */
     font-family: "Share", "cursive";
 }
 
@@ -35,16 +35,18 @@ h1{
     height: 100vh;
     width: 100vw;
     z-index: -1;
-    filter: blur(3px);   */
+    filter: blur(2px);   */
 }
 
 #cont-img{
+    /*"top: 0" tirou margem branca superior tela*/
+    top: 0;
     position: absolute;
     background-size: contain;
     z-index: -1;
     width: 100%;
     height: 100%;
-    filter: blur(2px);
+    filter: blur(3px);
 }
 
 header{
@@ -118,10 +120,55 @@ li{
 }
 p{
     font-size: x-large;
+    margin-left: 5px;
 }
 
-/*MOBILE*/
+/*ABAIXO VERSÃO PARA PC*/
 @media screen and (min-width: 500px) {
 
-    
+    #back-img{
+        display: inline-block;
+        position: absolute;
+        background-size: cover;
+        height: 100vh;
+        width: 100vw;
+        z-index: -9;
+        filter: blur(20px);   
+    }
+
+    #cont-img{
+        position: relative;
+        background-size: contain;
+        z-index: -5;
+        width: 100%;
+        height: 100%;
+        filter: blur(3px);
+    }
+
+    .container{
+        display: block;
+        position: relative;
+        max-width: 640px;
+        height: 95vh;
+        margin: auto;
+        border: 2px solid white; 
+        font-family: "Share", "cursive";
+    }
+
+    .content{
+        /*testar aqui configs*/
+        margin: 0;
+    }
+
+    #perfil-img{
+        width: 40%;
+        float: left;
+        margin-right: 20px;
+        margin-left: 10px;
+        border: 2px;
+        border-style: outset;
+        border-color: #ADAA9B;
+        border-radius: 15px;
+    }
+
 }
