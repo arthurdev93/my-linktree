@@ -1,0 +1,56 @@
+/*Desktop first, Mobile com media query*/
+html{
+    font-family: "Share", "cursive", serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#back-img{
+    position: absolute;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+    filter: blur(3px);   
+}
+
+header{
+    color: white;
+    font-size: xx-large;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid yellow;
+}
+
+.bio{
+    width: 30vw;
+    float: left;
+    border: 1px solid green;
+}
+
+#perfil{
+    padding: 10px;
+    width: 22vw;
+}
+
+p{
+    color: white;
+    padding: 0px 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#linktree{
+    padding: 0px 10px;
+}
+
+.port{
+    float: right;
+}
