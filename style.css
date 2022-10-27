@@ -12,6 +12,7 @@ body{
 
 h1{
     font-size: larger;
+    text-shadow: 2px 2px 5px  #5dc4ff89;
 }
 
 .container{
