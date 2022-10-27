@@ -7,6 +7,8 @@ function onOver(li) {
 function onOut(li) {
     li.style.filter = "none";
 }
+//efeito MATRIX background
 
-//tentar com objeto, array, ou DOM
+//tentar com objeto, array, ou DOM, otimizar no html, para não repetir os atributos todas as linhas
+
 

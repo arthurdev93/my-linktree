@@ -123,6 +123,7 @@ li{
 p{
     font-size: x-large;
     margin-left: 5px;
+    text-shadow: 1.5px 1.5px 3px  #000E19;
 }
 
 /*ABAIXO VERSÃO PARA PC*/
@@ -158,7 +159,7 @@ p{
         border: 2px;
         border-style: outset;
         border-color: #ADAA9B;
-        border-radius: 15px;
+        border-radius: 15px;        
     }
 
     /*Abaixo aumentei tamanho botões*/
