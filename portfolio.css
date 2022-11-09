@@ -56,5 +56,8 @@ a{
 }
 
 .port{
-    float: right;
+   position: fixed;
+}
+figure{
+    transform: scale(0.25);
 }
