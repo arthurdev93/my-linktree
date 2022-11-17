@@ -10,7 +10,7 @@ h1{
 }
 
 .container{
-    max-width: 640px;
+    max-width: 480px;
     /*"heigh:auto" tirou borda branca inferior tela*/ 
     height: auto;
     margin: auto;
@@ -23,17 +23,6 @@ h1{
 }
 
 #back-img{
-    display: none;
-    /*
-    position: absolute;
-    background-size: cover;
-    height: 100vh;
-    width: 100vw;
-    z-index: -1;
-    filter: blur(2px);   */
-}
-
-#cont-img{
     /*"top: 0" tirou margem branca superior tela*/
     top: 0;
     position: absolute;
@@ -60,13 +49,6 @@ header{
     border: 2px;
     border-style: outset;
     border-color: #ADAA9B;
-    border-radius: 15px;
-}
-/*EFEITO DE BORDA NA MINHA FOTO PERFIL*/
-#perfil-img:hover {
-    border: 2px;
-    border-style: outset;
-    border-color: #5dc4ff89;
     border-radius: 15px;
 }
 
@@ -142,15 +124,10 @@ p{
         filter: blur(3px);   
     }
 
-    #cont-img{
-        display: none;
-    }
-
     .container{
         max-width: 640px;
         height: auto;
         margin: auto; 
-        font-family: "Share", "cursive";
     }
 
     #perfil-img{
@@ -162,6 +139,14 @@ p{
         border-style: outset;
         border-color: #ADAA9B;
         border-radius: 15px;        
+    }
+    
+    /*EFEITO DE BORDA NA MINHA FOTO PERFIL*/
+    #perfil-img:hover {
+        border: 2px;
+        border-style: outset;
+        border-color: #5dc4ff89;
+        border-radius: 15px;
     }
 
     /*Abaixo aumentei tamanho botões*/
@@ -178,6 +163,11 @@ p{
         padding-top: 17px;
         margin: 10px auto;
         text-align: center;
+    }
+
+    /*ABAIXO EFEITO MOUSE SOBRE O BOTÃO*/
+    a:hover{
+        color: #005179;
     }
 
     /*ABAIXO CONFIGS ITEM LISTA DE LINKS*/
