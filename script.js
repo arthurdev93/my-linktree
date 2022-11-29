@@ -1,3 +1,4 @@
 function carregar(){
-        window.onload.style.display = "block";
+        var corpo = document.getElementsByTagName("body")[0];
+        corpo.style.display = "block";
 }
